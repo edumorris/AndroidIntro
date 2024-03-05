@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Constraint Layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:scrollIndicators="end|right"
+        android:scrollbars="vertical"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus a pellentesque sit amet porttitor eget dolor morbi non. Ac turpis egestas sed tempus urna et pharetra pharetra massa. Dui ut ornare lectus sit. Gravida rutrum quisque non tellus orci ac. Vitae suscipit tellus mauris a diam maecenas. Quam id leo in vitae turpis. Id diam vel quam elementum pulvinar etiam non. Lectus quam id leo in vitae turpis. Enim ut sem viverra aliquet eget sit amet tellus cras. Consectetur lorem donec massa sapien faucibus et molestie ac. Mollis nunc sed id semper. Iaculis nunc sed augue lacus viverra. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Nulla pharetra diam sit amet nisl. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a.  Orci sagittis eu volutpat odio facilisis. Neque ornare aenean euismod elementum nisi quis. Nisl pretium fusce id velit ut. Amet volutpat consequat mauris nunc congue nisi. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Turpis egestas integer eget aliquet. Quis hendrerit dolor magna eget est lorem. Tristique senectus et netus et malesuada fames ac turpis. Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Sit amet nisl purus in. Dictum fusce ut placerat orci nulla pellentesque dignissim.  Eget lorem dolor sed viverra ipsum nunc. Cursus sit amet dictum sit amet justo donec enim diam. Mi sit amet mauris commodo quis imperdiet massa. In egestas erat imperdiet sed euismod nisi. Nulla facilisi nullam vehicula ipsum a. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Ornare arcu odio ut sem nulla pharetra diam sit amet. Sed nisi lacus sed viverra tellus in. Sit amet purus gravida quis. Sed risus pretium quam vulputate dignissim suspendisse in est. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Pharetra vel turpis nunc eget lorem dolor sed viverra. Malesuada bibendum arcu vitae elementum. Nibh ipsum consequat nisl vel pretium lectus quam id. Vel fringilla est ullamcorper eget nulla facilisi. At augue eget arcu dictum. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Ac ut consequat semper viverra nam.  Quisque non tellus orci ac. Proin fermentum leo vel orci porta non. Rhoncus mattis rhoncus urna neque viverra justo. At varius vel pharetra vel turpis. At quis risus sed vulputate odio ut enim blandit volutpat. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Ac orci phasellus egestas tellus rutrum. Blandit aliquam etiam erat velit scelerisque in dictum non consectetur. Sed enim ut sem viverra aliquet eget sit amet tellus. Elementum integer enim neque volutpat ac tincidunt vitae.  Nibh praesent tristique magna sit amet. Pretium nibh ipsum consequat nisl. A iaculis at erat pellentesque. Dapibus ultrices in iaculis nunc sed augue lacus viverra. Nec sagittis aliquam malesuada bibendum arcu vitae. Malesuada pellentesque elit eget gravida. Mauris pharetra et ultrices neque ornare. Quis blandit turpis cursus in hac habitasse. Sed faucibus turpis in eu mi bibendum neque. Eu consequat ac felis donec et odio pellentesque diam. Accumsan in nisl nisi scelerisque eu ultrices. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Viverra mauris in aliquam sem. Cras semper auctor neque vitae tempus."
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="#1FE627"
+        android:text="OK"
+        app:cornerRadius="20dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/camera" />
+</androidx.constraintlayout.widget.ConstraintLayout>
