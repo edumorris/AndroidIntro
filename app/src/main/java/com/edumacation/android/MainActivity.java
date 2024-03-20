@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         txtView = (TextView) findViewById(R.id.textView3);
         txtView.setText(""); // Clear text in TextView widget
         txtView.setMovementMethod(new ScrollingMovementMethod()); // Add scrolling to TextView
-        // Added `gravity bottom` to text view, all view is maintained to new line
 
         View.OnClickListener ourOnClickListener = view -> {
 //            numOfTimesClicked += 1;
